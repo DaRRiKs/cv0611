@@ -1,0 +1,65 @@
+{
+  "request": {
+    "protocol": "vlm-practicum-3-pinned-cache",
+    "image_sha256": "08992cc74e04a7308c3f69e0299cae096095b2070416195681995609d8e17974",
+    "model": "florence-community/Florence-2-base",
+    "revision": "00921df66db728a9ceb750f5eca43e5c203a2051",
+    "dtype": "torch.float32",
+    "device": "cpu",
+    "gpu": null,
+    "versions": {
+      "torch": "2.15.0",
+      "torchvision": "0.29.2",
+      "transformers": "5.22.1",
+      "accelerate": "1.15.0",
+      "Pillow": "13.0.0",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "matplotlib": "3.11.2",
+      "num2words": "0.5.14"
+    },
+    "processor": "Florence2Processor",
+    "image_processor": {
+      "auto_map": {
+        "AutoProcessor": "processing_florence2.Florence2Processor"
+      },
+      "crop_size": {
+        "height": 768,
+        "width": 768
+      },
+      "do_center_crop": false,
+      "do_convert_rgb": null,
+      "do_normalize": true,
+      "do_rescale": true,
+      "do_resize": true,
+      "image_mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "image_processor_type": "CLIPImageProcessor",
+      "image_seq_length": 577,
+      "image_std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "resample": 3,
+      "rescale_factor": 0.00392156862745098,
+      "size": {
+        "height": 768,
+        "width": 768
+      }
+    },
+    "request": {
+      "task": "<OCR>",
+      "max_new_tokens": 512,
+      "do_sample": false,
+      "num_beams": 3
+    }
+  },
+  "result": {
+    "text": "INVOICEInvoice No. No. 83775Outer: 202-668-28Seller: Alpha Suppliers LLP-Preno Bleno-321216Stapier:444444444Paper A4TOTAL: 5216",
+    "seconds": 4.117929500062019
+  }
+}

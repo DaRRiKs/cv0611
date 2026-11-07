@@ -1,0 +1,65 @@
+{
+  "request": {
+    "protocol": "vlm-practicum-3-pinned-cache",
+    "image_sha256": "021d6a19350ee7a732ca1db3dcf9b5d8d918875a37189755bd10ffc01aa3d76d",
+    "model": "florence-community/Florence-2-base",
+    "revision": "00921df66db728a9ceb750f5eca43e5c203a2051",
+    "dtype": "torch.float32",
+    "device": "cpu",
+    "gpu": null,
+    "versions": {
+      "torch": "2.15.0",
+      "torchvision": "0.29.2",
+      "transformers": "5.22.1",
+      "accelerate": "1.15.0",
+      "Pillow": "13.0.0",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "matplotlib": "3.11.2",
+      "num2words": "0.5.14"
+    },
+    "processor": "Florence2Processor",
+    "image_processor": {
+      "auto_map": {
+        "AutoProcessor": "processing_florence2.Florence2Processor"
+      },
+      "crop_size": {
+        "height": 768,
+        "width": 768
+      },
+      "do_center_crop": false,
+      "do_convert_rgb": null,
+      "do_normalize": true,
+      "do_rescale": true,
+      "do_resize": true,
+      "image_mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "image_processor_type": "CLIPImageProcessor",
+      "image_seq_length": 577,
+      "image_std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "resample": 3,
+      "rescale_factor": 0.00392156862745098,
+      "size": {
+        "height": 768,
+        "width": 768
+      }
+    },
+    "request": {
+      "task": "<OCR>",
+      "max_new_tokens": 512,
+      "do_sample": false,
+      "num_beams": 3
+    }
+  },
+  "result": {
+    "text": "INVOICEInvoice No. Nov. 24245Outer: 202-50-29Seller: Alpha Suppliers LLP-1-100-300Workbook1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-21-22-23-24-25-26-27-28-29-30-31-32-33-34-35-36-37-38-39-40-41-42-43-44-45-46-47-48-55-56-57-58-59-60-61-62-63-64-65-66-67-68-69-70-71-72-73-74-75-76-77-78-79-72TOTAL 3008",
+    "seconds": 10.177632699953392
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "request": {
+    "protocol": "vlm-practicum-3-pinned-cache",
+    "image_sha256": "021d6a19350ee7a732ca1db3dcf9b5d8d918875a37189755bd10ffc01aa3d76d",
+    "model": "HuggingFaceTB/SmolVLM-256M-Instruct",
+    "revision": "7e3e67edbbed1bf9888184d9df282b700a323964",
+    "dtype": "torch.float32",
+    "device": "cpu",
+    "gpu": null,
+    "versions": {
+      "torch": "2.15.0",
+      "torchvision": "0.29.2",
+      "transformers": "5.22.1",
+      "accelerate": "1.15.0",
+      "Pillow": "13.0.0",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "matplotlib": "3.11.2",
+      "num2words": "0.5.14"
+    },
+    "processor": "Idefics3Processor",
+    "image_processor": {
+      "do_convert_rgb": true,
+      "do_image_splitting": true,
+      "do_normalize": true,
+      "do_pad": true,
+      "do_rescale": true,
+      "do_resize": true,
+      "image_mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "image_processor_type": "Idefics3ImageProcessor",
+      "image_std": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "max_image_size": {
+        "longest_edge": 512
+      },
+      "resample": 1,
+      "rescale_factor": 0.00392156862745098,
+      "size": {
+        "longest_edge": 2048
+      }
+    },
+    "request": {
+      "question": "What is the invoice number? Answer with the number only.",
+      "edge": 512,
+      "max_new_tokens": 24,
+      "do_sample": false,
+      "num_beams": 1
+    }
+  },
+  "result": {
+    "answer": "3008",
+    "info": {
+      "visual_tokens": 64,
+      "prompt_tokens": 87,
+      "seconds": 2.885111399926245,
+      "generation_seconds": 2.8783730000723153,
+      "vision_reused": false
+    }
+  }
+}

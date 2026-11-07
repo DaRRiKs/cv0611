@@ -1,0 +1,9 @@
+﻿longest_edge,field,count,correct,exact_accuracy,anls,errors
+1024,invoice_number,20,5,0.25,0.5466666666666666,15
+1024,date,20,20,1.0,1.0,0
+1024,seller,20,20,1.0,1.0,0
+1024,total,20,20,1.0,1.0,0
+2048,invoice_number,20,19,0.95,1.0,1
+2048,date,20,20,1.0,1.0,0
+2048,seller,20,20,1.0,1.0,0
+2048,total,20,20,1.0,1.0,0

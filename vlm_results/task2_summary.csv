@@ -1,0 +1,3 @@
+﻿longest_edge,documents,fields,correct_fields,exact_accuracy,anls,visual_tokens,seconds_per_document,total_seconds,exact_date,exact_invoice_number,exact_seller,exact_total
+1024,20,80,65,0.8125,0.8866666666666667,320.0,9.14996404997073,182.99928099941462,1.0,0.25,1.0,1.0
+2048,20,80,79,0.9875,1.0,832.0,19.351252325007227,387.0250465001445,1.0,0.95,1.0,1.0

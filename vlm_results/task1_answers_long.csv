@@ -1,0 +1,21 @@
+﻿object,question,gold,visual_evidence,model,raw_answer,normalized,correct,visual_tokens,prompt_tokens,seconds,generation_seconds,vision_reused,reused
+cat,Is there a cat in the image?,yes,Две кошки занимают левую и правую части кадра,256M,"Yes, there is a cat on the pink color cloth in the image.",yes,True,320,349,7.319972399855033,7.287184599786997,False,True
+remote control,Is there a remote control in the image?,yes,Два пульта лежат между кошками и над левой кошкой,256M,"Yes, there is a remote control in the image.",yes,True,320,350,5.582268900005147,5.558749299962074,False,True
+couch,Is there a couch in the image?,yes,Розовое сиденье и спинка дивана,256M,"Yes, there is a couch in the image.",yes,True,320,349,7.25130629981868,7.226549900136888,False,True
+paw,Is there a paw in the image?,yes,Лапы обеих кошек видны на сиденье,256M,"Yes, there is a paw of a cat in the image.",yes,True,320,349,5.726702600019053,5.698628599988297,False,True
+tail,Is there a tail in the image?,yes,Хвост левой кошки виден внизу слева,256M,"Yes, there is a tail in the image.",yes,True,320,349,6.273151200031862,6.245937699917704,False,True
+dog,Is there a dog in the image?,no,Собаки в кадре нет,256M,There is no dog present in the image.,no,True,320,349,6.811139600118622,6.701906900154427,False,True
+bicycle,Is there a bicycle in the image?,no,Велосипеда в кадре нет,256M,There is no bicycle present in the image.,no,True,320,349,5.563009700039402,5.538002599962056,False,True
+book,Is there a book in the image?,no,Книги в кадре нет,256M,There is no book present in the image.,no,True,320,349,7.17644719989039,7.154380299849436,False,True
+cup,Is there a cup in the image?,no,Чашки в кадре нет,256M,There is no cup present in the image.,no,True,320,349,5.539258199976757,5.516602199990302,False,True
+laptop,Is there a laptop in the image?,no,Ноутбука в кадре нет,256M,There is no laptop present in the image.,no,True,320,349,7.481521799927577,7.456663900054991,False,True
+cat,Is there a cat in the image?,yes,Две кошки занимают левую и правую части кадра,500M,"Yes, there is a cat on the bed.",yes,True,320,349,6.6611122998874635,6.606257700128481,False,True
+remote control,Is there a remote control in the image?,yes,Два пульта лежат между кошками и над левой кошкой,500M,"Yes, there is a remote control in the image.",yes,True,320,350,8.22975379996933,8.202059600036591,False,True
+couch,Is there a couch in the image?,yes,Розовое сиденье и спинка дивана,500M,"Yes, there is a couch in the image.",yes,True,320,349,6.635418300051242,6.612049899995327,False,True
+paw,Is there a paw in the image?,yes,Лапы обеих кошек видны на сиденье,500M,"Yes, there is a paw in the image.",yes,True,320,349,8.479929300025105,8.455093699973077,False,True
+tail,Is there a tail in the image?,yes,Хвост левой кошки виден внизу слева,500M,"Yes, there is a tail in the image.",yes,True,320,349,6.529595199972391,6.503471199888736,False,True
+dog,Is there a dog in the image?,no,Собаки в кадре нет,500M,There is no dog present in the image.,no,True,320,349,8.252289100084454,8.229170699836686,False,True
+bicycle,Is there a bicycle in the image?,no,Велосипеда в кадре нет,500M,"No, there is no bicycle present in the image.",no,True,320,349,6.8301450998988,6.807529299985617,False,True
+book,Is there a book in the image?,no,Книги в кадре нет,500M,There is no book present in the image.,no,True,320,349,8.455747300060466,8.433118200162426,False,True
+cup,Is there a cup in the image?,no,Чашки в кадре нет,500M,There is no cup present in the image.,no,True,320,349,6.481055400101468,6.459125800058246,False,True
+laptop,Is there a laptop in the image?,no,Ноутбука в кадре нет,500M,There is no laptop present in the image.,no,True,320,349,8.249260599957779,8.227800599997863,False,True

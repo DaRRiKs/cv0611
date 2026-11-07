@@ -1,0 +1,67 @@
+{
+  "request": {
+    "protocol": "vlm-practicum-3-pinned-cache",
+    "image_sha256": "4a969930c958295a5a55dc8acfbb331b06213f1a043b208e8ddb964480449d3a",
+    "model": "HuggingFaceTB/SmolVLM-256M-Instruct",
+    "revision": "7e3e67edbbed1bf9888184d9df282b700a323964",
+    "dtype": "torch.float32",
+    "device": "cpu",
+    "gpu": null,
+    "versions": {
+      "torch": "2.15.0",
+      "torchvision": "0.29.2",
+      "transformers": "5.22.1",
+      "accelerate": "1.15.0",
+      "Pillow": "13.0.0",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "matplotlib": "3.11.2",
+      "num2words": "0.5.14"
+    },
+    "processor": "Idefics3Processor",
+    "image_processor": {
+      "do_convert_rgb": true,
+      "do_image_splitting": true,
+      "do_normalize": true,
+      "do_pad": true,
+      "do_rescale": true,
+      "do_resize": true,
+      "image_mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "image_processor_type": "Idefics3ImageProcessor",
+      "image_std": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "max_image_size": {
+        "longest_edge": 512
+      },
+      "resample": 1,
+      "rescale_factor": 0.00392156862745098,
+      "size": {
+        "longest_edge": 2048
+      }
+    },
+    "request": {
+      "question": "Text on the page: INVOICEInvoice No. No. 712160Outer: 2026-31-28Seller: Steppert Office LidPaper A.M.3M1M3M4M5M5Pinns becho3M5m3M3m3m4m4M4m5M4.M5.M6.M7.M8.M9.M10.M11.M12.M13.M14.M15.M16.M17.M18.M20TOTAL: 4639\n\nWhat is the invoice number? Answer with the number only.",
+      "edge": 512,
+      "max_new_tokens": 24,
+      "do_sample": false,
+      "num_beams": 1
+    }
+  },
+  "result": {
+    "answer": "712160.",
+    "info": {
+      "visual_tokens": 64,
+      "prompt_tokens": 237,
+      "seconds": 1.5735766999423504,
+      "generation_seconds": 1.5682163999881595,
+      "vision_reused": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿object,question,gold,visual_evidence,raw_answer_256M,normalized_256M,correct_256M,raw_answer_500M,normalized_500M,correct_500M
+cat,Is there a cat in the image?,yes,Две кошки занимают левую и правую части кадра,"Yes, there is a cat on the pink color cloth in the image.",yes,True,"Yes, there is a cat on the bed.",yes,True
+remote control,Is there a remote control in the image?,yes,Два пульта лежат между кошками и над левой кошкой,"Yes, there is a remote control in the image.",yes,True,"Yes, there is a remote control in the image.",yes,True
+couch,Is there a couch in the image?,yes,Розовое сиденье и спинка дивана,"Yes, there is a couch in the image.",yes,True,"Yes, there is a couch in the image.",yes,True
+paw,Is there a paw in the image?,yes,Лапы обеих кошек видны на сиденье,"Yes, there is a paw of a cat in the image.",yes,True,"Yes, there is a paw in the image.",yes,True
+tail,Is there a tail in the image?,yes,Хвост левой кошки виден внизу слева,"Yes, there is a tail in the image.",yes,True,"Yes, there is a tail in the image.",yes,True
+dog,Is there a dog in the image?,no,Собаки в кадре нет,There is no dog present in the image.,no,True,There is no dog present in the image.,no,True
+bicycle,Is there a bicycle in the image?,no,Велосипеда в кадре нет,There is no bicycle present in the image.,no,True,"No, there is no bicycle present in the image.",no,True
+book,Is there a book in the image?,no,Книги в кадре нет,There is no book present in the image.,no,True,There is no book present in the image.,no,True
+cup,Is there a cup in the image?,no,Чашки в кадре нет,There is no cup present in the image.,no,True,There is no cup present in the image.,no,True
+laptop,Is there a laptop in the image?,no,Ноутбука в кадре нет,There is no laptop present in the image.,no,True,There is no laptop present in the image.,no,True

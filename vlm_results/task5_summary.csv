@@ -1,0 +1,3 @@
+﻿approach,documents,correct,exact_accuracy,anls,seconds_per_document,visual_tokens
+Baseline,20,0,0.0,0.0,1.4866746650077403,64.0
+Hybrid,20,0,0.0,0.02727272727272727,6.994585484964773,64.0

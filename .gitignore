@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+artifacts/hf_cache/
+artifacts/ipython/
+artifacts/jupyter/
+artifacts/jupyter_runtime/
+artifacts/matplotlib/
+*.tmp
+*.tmp.ipynb

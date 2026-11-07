@@ -1,0 +1,100 @@
+{
+  "request": {
+    "protocol": "vlm-practicum-3-pinned-cache",
+    "image_sha256": "79a2d9456fb03b84f8386b9e07172a0f175d56aa15fe34c20daf93886f715b1f",
+    "model": "HuggingFaceTB/SmolVLM-256M-Instruct",
+    "revision": "7e3e67edbbed1bf9888184d9df282b700a323964",
+    "dtype": "torch.float32",
+    "device": "cpu",
+    "gpu": null,
+    "versions": {
+      "torch": "2.15.0",
+      "torchvision": "0.29.2",
+      "transformers": "5.22.1",
+      "accelerate": "1.15.0",
+      "Pillow": "13.0.0",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "matplotlib": "3.11.2",
+      "num2words": "0.5.14"
+    },
+    "processor": "Idefics3Processor",
+    "image_processor": {
+      "do_convert_rgb": true,
+      "do_image_splitting": true,
+      "do_normalize": true,
+      "do_pad": true,
+      "do_rescale": true,
+      "do_resize": true,
+      "image_mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "image_processor_type": "Idefics3ImageProcessor",
+      "image_std": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "max_image_size": {
+        "longest_edge": 512
+      },
+      "resample": 1,
+      "rescale_factor": 0.00392156862745098,
+      "size": {
+        "longest_edge": 2048
+      }
+    },
+    "request": {
+      "questions": {
+        "invoice_number": "What is the invoice number? Answer with the number only.",
+        "date": "What is the invoice date? Answer with the date only.",
+        "seller": "Who is the seller? Answer with the company name only.",
+        "total": "What is the TOTAL amount? Answer with the number only."
+      },
+      "edge": 2048,
+      "max_new_tokens": 24,
+      "do_sample": false,
+      "num_beams": 1
+    }
+  },
+  "result": {
+    "prediction": {
+      "invoice_number": "INV-38037",
+      "date": "The invoice date is 2026-12-10.",
+      "seller": "Alpha Supplies LLP.",
+      "total": "The TOTAL amount is 3449."
+    },
+    "details": {
+      "invoice_number": {
+        "visual_tokens": 832,
+        "prompt_tokens": 883,
+        "seconds": 14.636997800087556,
+        "generation_seconds": 14.537503900006413,
+        "vision_reused": false
+      },
+      "date": {
+        "visual_tokens": 832,
+        "prompt_tokens": 883,
+        "seconds": 1.6975320000201464,
+        "generation_seconds": 1.6029165000654757,
+        "vision_reused": true
+      },
+      "seller": {
+        "visual_tokens": 832,
+        "prompt_tokens": 883,
+        "seconds": 1.3654885001014918,
+        "generation_seconds": 1.2661937999073416,
+        "vision_reused": true
+      },
+      "total": {
+        "visual_tokens": 832,
+        "prompt_tokens": 885,
+        "seconds": 1.5846890001557767,
+        "generation_seconds": 1.4871237000916153,
+        "vision_reused": true
+      }
+    }
+  }
+}

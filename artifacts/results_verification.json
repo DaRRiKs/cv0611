@@ -1,0 +1,18 @@
+{
+  "full_notebook_execution": true,
+  "executed_code_cells": 26,
+  "task1_answers": 20,
+  "task2_fields": 160,
+  "task3_fields": 400,
+  "task4_validated_predictions_per_validator": 160,
+  "task5_answers": 40,
+  "task5_ocr_documents": 20,
+  "metrics_recomputed_from_predictions": true,
+  "individual_anls_and_postprocessing_verified": true,
+  "prediction_cache_provenance_verified": true,
+  "original_cell_order_and_assignment_text_preserved": true,
+  "embedded_tables_and_graph_verified": true,
+  "comments": 0,
+  "docstrings": 0,
+  "device": "cpu"
+}

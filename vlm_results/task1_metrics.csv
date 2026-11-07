@@ -1,0 +1,3 @@
+﻿model,questions,accuracy,absent_objects,false_yes,false_positive_rate,yes_rate,ambiguous
+256M,10,1.0,5,0,0.0,0.5,0
+500M,10,1.0,5,0,0.0,0.5,0

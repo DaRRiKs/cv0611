@@ -1,0 +1,67 @@
+{
+  "request": {
+    "protocol": "vlm-practicum-3-pinned-cache",
+    "image_sha256": "70e0d7032e5360f140f6b6213744f699f940aa2d7d5df1a79fe75d1fc6511514",
+    "model": "HuggingFaceTB/SmolVLM-256M-Instruct",
+    "revision": "7e3e67edbbed1bf9888184d9df282b700a323964",
+    "dtype": "torch.float32",
+    "device": "cpu",
+    "gpu": null,
+    "versions": {
+      "torch": "2.15.0",
+      "torchvision": "0.29.2",
+      "transformers": "5.22.1",
+      "accelerate": "1.15.0",
+      "Pillow": "13.0.0",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "matplotlib": "3.11.2",
+      "num2words": "0.5.14"
+    },
+    "processor": "Idefics3Processor",
+    "image_processor": {
+      "do_convert_rgb": true,
+      "do_image_splitting": true,
+      "do_normalize": true,
+      "do_pad": true,
+      "do_rescale": true,
+      "do_resize": true,
+      "image_mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "image_processor_type": "Idefics3ImageProcessor",
+      "image_std": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "max_image_size": {
+        "longest_edge": 512
+      },
+      "resample": 1,
+      "rescale_factor": 0.00392156862745098,
+      "size": {
+        "longest_edge": 2048
+      }
+    },
+    "request": {
+      "question": "Text on the page: INVOICEInvoice No ., Nov. 12:2008Cater: 202-05-14Seller: Alpha Suppliers LLPFamMonter dand23115979797977797971Paper A.14697972NotebookTOTAL: 5194\n\nWhat is the invoice number? Answer with the number only.",
+      "edge": 512,
+      "max_new_tokens": 24,
+      "do_sample": false,
+      "num_beams": 1
+    }
+  },
+  "result": {
+    "answer": "Nov. 12:2008Cater: 202-05-14S",
+    "info": {
+      "visual_tokens": 64,
+      "prompt_tokens": 180,
+      "seconds": 1.8198396998923272,
+      "generation_seconds": 1.8146319000516087,
+      "vision_reused": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿object,question,gold,visual_evidence
+cat,Is there a cat in the image?,yes,Две кошки занимают левую и правую части кадра
+remote control,Is there a remote control in the image?,yes,Два пульта лежат между кошками и над левой кошкой
+couch,Is there a couch in the image?,yes,Розовое сиденье и спинка дивана
+paw,Is there a paw in the image?,yes,Лапы обеих кошек видны на сиденье
+tail,Is there a tail in the image?,yes,Хвост левой кошки виден внизу слева
+dog,Is there a dog in the image?,no,Собаки в кадре нет
+bicycle,Is there a bicycle in the image?,no,Велосипеда в кадре нет
+book,Is there a book in the image?,no,Книги в кадре нет
+cup,Is there a cup in the image?,no,Чашки в кадре нет
+laptop,Is there a laptop in the image?,no,Ноутбука в кадре нет

@@ -1,0 +1,40 @@
+[
+  {
+    "longest_edge": 512,
+    "seed": 7,
+    "original": {
+      "invoice_number": "3615",
+      "date": "03/03/2021",
+      "seller": "O'Keeffe Paper Supplies Ltd",
+      "total": "3615"
+    },
+    "optimized": {
+      "invoice_number": "3615",
+      "date": "03/03/2021",
+      "seller": "O'Keeffe Paper Supplies Ltd",
+      "total": "3615"
+    },
+    "identical_answers": true,
+    "original_seconds": 11.792573599843308,
+    "optimized_seconds": 3.652457500109449
+  },
+  {
+    "longest_edge": 1024,
+    "seed": 7,
+    "original": {
+      "invoice_number": "The invoice number is INV. 76510.",
+      "date": "The invoice date is 2026-04-02.",
+      "seller": "Alpha Supplies LLP",
+      "total": "The TOTAL amount is 3615."
+    },
+    "optimized": {
+      "invoice_number": "The invoice number is INV. 76510.",
+      "date": "The invoice date is 2026-04-02.",
+      "seller": "Alpha Supplies LLP",
+      "total": "The TOTAL amount is 3615."
+    },
+    "identical_answers": true,
+    "original_seconds": 54.65619839983992,
+    "optimized_seconds": 16.422142199939117
+  }
+]

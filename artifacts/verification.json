@@ -1,0 +1,33 @@
+{
+  "nbformat_valid": true,
+  "python_cells_compiled": 26,
+  "comments": 0,
+  "docstrings": 0,
+  "standalone_explanatory_strings": 0,
+  "assignments": 5,
+  "helper_checks_passed": true,
+  "generated_document_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "fixtures_used_only_for_helper_checks": true,
+  "neural_experiments_executed_by_this_script": false
+}
